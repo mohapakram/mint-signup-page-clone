@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mohapakram.github.io/mint-signup-page-clone/)
+[Live Demo Link](https://raw.githack.com/mohapakram/mint-signup-page-clone/tree/signup-page)
 
 ## Built With
 
