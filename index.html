@@ -5,9 +5,31 @@
     <meta charset="utf-8" />
 
     <title>Sign up page</title>
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/#" />
   </head>
 
-  <body></body>
+  <body>
+    <div class="form-container">
+      <div id="form-header">
+        <h3>Create an Intuit account</h3>
+        <p>One account for everything Intuit, including Mint.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <form action="#" method="post">
+        <label for="email">Email address</label>
+        <input type="text" name="email" id="email" required>
+        <label for="phone">Phone (recommended)</label>
+        <input type="number" name="phone" id="phone" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <button><i class="fas fa-lock"></i>Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
