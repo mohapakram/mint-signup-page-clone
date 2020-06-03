@@ -15,20 +15,28 @@
   </head>
 
   <body>
-    <div class="form-container">
+    <div id="form-container">
       <div id="form-header">
-        <h3>Create an Intuit account</h3>
-        <p>One account for everything Intuit, including Mint.</p>
-        <a href="#">Learn more</a>
+        <h1 class="ver-margin">Create an Intuit account</h1>
+        <div id="form-des" class="ver-margin">
+          <p>One account for everything Intuit, including Mint.</p>
+          <a href="#">Learn more</a>
+        </div>
       </div>
       <form action="#" method="post">
-        <label for="email">Email address</label>
-        <input type="text" name="email" id="email" required>
-        <label for="phone">Phone (recommended)</label>
-        <input type="number" name="phone" id="phone" required>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required>
-        <button><i class="fas fa-lock"></i>Submit</button>
+        <div class="input-container">
+          <label for="email">Email address</label>
+          <input type="text" name="email" id="email" required />
+        </div>
+        <div class="input-container">
+          <label for="phone">Phone (recommended)</label>
+          <input type="number" name="phone" id="phone" required />
+        </div>
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <button><i class="fas fa-lock"></i>create account</button>
       </form>
     </div>
   </body>

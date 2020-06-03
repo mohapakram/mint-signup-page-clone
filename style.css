@@ -1,21 +1,71 @@
 /* Reset Style Rules */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
 /* Body */
-body{
-    background-color: #ECEEF1;
-    width: 100vw;
-    height: 100vh;
+body {
+  background-color: #eceef1;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
 }
 
 /* Form */
 
-#form-container{
-    background-color: #fff;
-    
+#form-container {
+  background-color: #fff;
+  width: 25%;
+  margin: 8% auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ver-margin {
+  margin: 5% 0;
+}
+
+#form-des a {
+  text-decoration: none;
+}
+
+form {
+  text-align: left;
+}
+
+form input {
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #c1c5c8;
+}
+
+form input:focus {
+  border: 1px solid #52a8ec;
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+form button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+}
+
+form button i {
+  margin: 0 10px;
 }
