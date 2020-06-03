@@ -13,15 +13,6 @@ body {
   font-size: 14px;
 }
 
-/* Common Rules */
-.gray-text{
-  color: rgb(150, 150, 150)
-}
-
-.d-inline{
-  display: inline;
-}
-
 /* Logos */
 #logos {
   width: 25%;
@@ -37,18 +28,6 @@ body {
   margin: 0 auto;
 }
 
-.flex{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex span{
-  font-size: 20px;
-  letter-spacing: 1px;
-}
-
-
 #sub-logo img {
   height: 20px;
   margin: 5px;
@@ -58,12 +37,11 @@ body {
 
 #form-container {
   background-color: #fff;
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   padding: 30px;
   text-align: center;
-  border: 1px solid #c7c7c7;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .ver-margin {
@@ -131,35 +109,3 @@ form button {
   padding: 10px 20px;
   margin: 0 10px;
 }
-
-/* Terms and Condition Section */
-#terms{
-  font-size: 12px;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-#captcha{
-  margin-top: 25px;
-  background-color: #eceef1;
-  text-align: center;
-}
-
-footer{
-  width: 60%;
-  margin: 1% auto;
-  text-align: center;
-  font-size: 12px;
-  color: #505050;
-  padding: 10px;
-}
-
-#footer-links a{
-  margin: 0 5px;
-  color: #505050;
-}
-
-#footer-links a:hover{
- text-decoration: underline;
-}
-
