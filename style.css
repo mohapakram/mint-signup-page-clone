@@ -10,7 +10,27 @@
 body {
   background-color: #eceef1;
   font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+/* Logos */
+#logos {
+  width: 25%;
+  margin-top: 4%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+#main-logo img {
+  height: 50px;
+  margin: 0 auto;
+}
+
+#sub-logo img {
+  height: 20px;
+  margin: 5px;
 }
 
 /* Form */
@@ -18,7 +38,7 @@ body {
 #form-container {
   background-color: #fff;
   width: 25%;
-  margin: 8% auto;
+  margin: 0 auto;
   padding: 30px;
   text-align: center;
   border-radius: 5px;
@@ -28,7 +48,9 @@ body {
   margin: 5% 0;
 }
 
-#form-des a {
+a {
+  display: block;
+  color: #0077c5;
   text-decoration: none;
 }
 
@@ -56,16 +78,34 @@ form input:focus {
 
 form button {
   width: 100%;
+  font-size: 1.2em;
   padding: 15px 20px;
+}
+
+.btn {
   background-color: #0077c5;
   color: white;
   text-align: center;
-  font-size: 1.2em;
   text-transform: capitalize;
   border: none;
   border-radius: 5px;
 }
 
-form button i {
+.btn i {
+  margin: 0 10px;
+}
+
+#login-btn-container {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin: 15px;
+}
+
+#login-btn {
+  float: right;
+  padding: 10px 20px;
   margin: 0 10px;
 }
