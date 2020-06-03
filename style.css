@@ -1,0 +1,21 @@
+/* Reset Style Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Body */
+body{
+    background-color: #ECEEF1;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Form */
+
+#form-container{
+    background-color: #fff;
+    
+}
