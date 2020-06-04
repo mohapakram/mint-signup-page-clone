@@ -3,12 +3,7 @@
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page so we can learn about HTML forms.
 
 ## Live Demo
-
-<<<<<<< HEAD
-[Live Demo Link](https://raw.githack.com/mohapakram/mint-signup-page-clone/tree/signup-page)
-=======
-- [Live Demo](https://rawcdn.githack.com/mohapakram/mint-signup-page-clone/213715797459396612fe4d79349c2f68e165910f/index.html)
->>>>>>> 1f4c8dc1bb204741bb23598a924e6fd90d904555
+- [Live Demo](https://rawcdn.githack.com/mohapakram/mint-signup-page-clone/1f4c8dc1bb204741bb23598a924e6fd90d904555/index.html)
 
 ## Built With
 
