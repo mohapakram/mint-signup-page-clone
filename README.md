@@ -4,7 +4,11 @@
 
 ## Live Demo
 
+<<<<<<< HEAD
 [Live Demo Link](https://raw.githack.com/mohapakram/mint-signup-page-clone/tree/signup-page)
+=======
+- [Live Demo](https://rawcdn.githack.com/mohapakram/mint-signup-page-clone/213715797459396612fe4d79349c2f68e165910f/index.html)
+>>>>>>> 1f4c8dc1bb204741bb23598a924e6fd90d904555
 
 ## Built With
 
