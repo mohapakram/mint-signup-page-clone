@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #eceef1;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.gray-text {
+  color: rgb(150, 150, 150);
+}
+
+.d-inline {
+  display: inline;
+}
+
+#logos {
+  width: 25%;
+  margin-top: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+#main-logo img {
+  height: 50px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex span {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#sub-logo img {
+  height: 20px;
+  margin: 5px;
+}
+
+#form-container {
+  width: 30vw;
+  margin: 0 auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+#inner-form-container {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.ver-margin {
+  margin: 5% 0;
+}
+
+a {
+  display: block;
+  color: #0077c5;
+  text-decoration: none;
+}
+
+form {
+  text-align: left;
+}
+
+form input {
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #c1c5c8;
+}
+
+form input:focus {
+  border: 1px solid #52a8ec;
+  outline: none;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+form button {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 15px 20px;
+}
+
+.btn {
+  background-color: #0077c5;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn i {
+  margin: 0 10px;
+}
+
+#login-btn-container {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  margin: 15px;
+}
+
+#login-btn {
+  float: right;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+#terms {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#captcha {
+  margin: 25px;
+  background-color: #eceef1;
+  text-align: center;
+}
+
+footer {
+  width: 60%;
+  margin: 1% auto;
+  text-align: center;
+  font-size: 12px;
+  color: #505050;
+  padding: 10px;
+}
+
+#footer-links a {
+  margin: 0 5px;
+  color: #505050;
+}
+
+#footer-links a:hover {
+  text-decoration: underline;
+}
