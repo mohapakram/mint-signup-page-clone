@@ -19,6 +19,8 @@ Open index.html file in your browser.
 👤 **Mohab**
 
 - Github: [@mohabakram](https://github.com/mohabakram)
+- Twitter: [@mohapakram](https://twitter.com/mohapakram)
+- Linkedin: [mohabakram](https://www.linkedin.com/in/mohab-akram-667093131/)
 
 👤 **Olawale**
 
